@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Stay informed with OrbitalIQ's latest blogs and industry insights on GIS development, satellite image processing, and AI in Earth observation.">
+  <title>Blog & Insights | OrbitalIQ Analytics</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+  <!-- --- Header / Navigation --- -->
+  <header class="header" id="headerNav">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="logoLink">
+        <img src="./assets/images/logo.png" alt="OrbitalIQ Analytics" class="header-logo">
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="training.html" class="nav-link">Training</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1.25rem;">Contact Us</a>
+      </nav>
+
+      <button class="hamburger" id="hamburgerMenu" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- Page Hero --- -->
+  <section class="page-hero" id="blogHero">
+    <div class="container">
+      <h1 class="page-hero-title">Blog & Technical Insights</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &gt; <span>Blog</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Blog Listing Section --- -->
+  <section class="section-padding" id="blogListingSection">
+    <div class="container">
+      
+      <!-- Category Navigation Panel -->
+      <div class="project-filters" id="blogCategories" style="margin-bottom: 4rem;">
+        <button class="filter-btn active">All Articles</button>
+        <button class="filter-btn">GIS</button>
+        <button class="filter-btn">Remote Sensing</button>
+        <button class="filter-btn">GeoAI</button>
+        <button class="filter-btn">Climate Analytics</button>
+        <button class="filter-btn">Water Resources</button>
+        <button class="filter-btn">Agriculture</button>
+        <button class="filter-btn">Data Science</button>
+      </div>
+
+      <!-- Blog Posts Grid -->
+      <div class="grid-3" id="blogGrid">
+        
+        <!-- Post 1 -->
+        <div class="blog-card" id="post1">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>GeoAI</span>
+              <span>•</span>
+              <span>June 2, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Scaling GeoAI Object Detection Model Pipelines on Cloud Infrastructure</a></h3>
+            <p class="blog-excerpt">Exploring the architectural challenges of running YOLOv8 crop classifications over continental Sentinel-2 imagery grids, utilizing cloud clusters.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="blog-card" id="post2">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Remote Sensing</span>
+              <span>•</span>
+              <span>May 18, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Comparing MNDWI and NDWI Water Index Metrics for Siltation Calculations</a></h3>
+            <p class="blog-excerpt">An in-depth methodological review of water detection indices, highlighting why modified NDWI yields higher precision in muddy reservoir runoffs.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="blog-card" id="post3">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2M12 20v2"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Climate Analytics</span>
+              <span>•</span>
+              <span>May 05, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Leveraging ERA5 Global Climate Reanalysis Arrays inside Jupyter Notebooks</a></h3>
+            <p class="blog-excerpt">A practical coding walk-through for downloading and rendering surface temperature regressions using Xarray, Pandas, and Cartopy libraries.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Post 4 -->
+        <div class="blog-card" id="post4">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Agriculture</span>
+              <span>•</span>
+              <span>April 22, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Evaluating Soil Moisture Deficit Grids using Sentinel-1 Radar telemetry</a></h3>
+            <p class="blog-excerpt">Why Synthetic Aperture Radar (SAR) backscatter metrics offer cloud-free crop soil moisture approximations compared to optical NDVIs.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Post 5 -->
+        <div class="blog-card" id="post5">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Water Resources</span>
+              <span>•</span>
+              <span>April 10, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Delineating Watershed Catchments from SRTM and ALOS PALSAR DEMs</a></h3>
+            <p class="blog-excerpt">Exploring discrepancies in stream extraction hierarchies when mapping low-relief coastal catchments with different DEM sensors.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Post 6 -->
+        <div class="blog-card" id="post6">
+          <div class="blog-img-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/></svg>
+          </div>
+          <div class="blog-content">
+            <div class="blog-meta">
+              <span>Data Science</span>
+              <span>•</span>
+              <span>March 25, 2026</span>
+            </div>
+            <h3 class="blog-title"><a href="#">Integrating PostGIS and GeoServer with React to build fast interactive WebGIS dashboards</a></h3>
+            <p class="blog-excerpt">A step-by-step workflow tutorial showing how to serve high-volume vector shapefiles efficiently using WMS and WFS protocols.</p>
+            <a href="#" class="card-link">Read Article <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- --- Footer Section --- -->
+  <footer class="footer" id="mainFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="margin-bottom: 1.2rem;">
+            <img src="./assets/images/logo.png" alt="OrbitalIQ Analytics" style="height: 80px; width: auto; display: block;">
+          </a>
+          <p>OrbitalIQ Analytics Pvt. Ltd. is a research-driven geospatial technology company delivering GIS, remote sensing, and GeoAI solutions globally.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" class="footer-social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+            <a href="#" class="footer-social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="projects.html" class="footer-link">Projects Portfolio</a>
+            <a href="careers.html" class="footer-link">Careers & Culture</a>
+            <a href="contact.html" class="footer-link">Contact & Consult</a>
+          </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="services.html#gis-analysis" class="footer-link">GIS & Spatial Analysis</a>
+            <a href="services.html#remote-sensing" class="footer-link">Remote Sensing</a>
+            <a href="services.html#geo-ai" class="footer-link">GeoAI & ML</a>
+            <a href="services.html#climate-analytics" class="footer-link">Climate Analytics</a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Details</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>info@orbitaliq.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 94376 00000</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Bhubaneswar, Odisha, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear">2026</span> OrbitalIQ Analytics Pvt. Ltd. All rights reserved. | Website Developed by <a href="#" style="color: var(--secondary); font-weight: 600;">ByteBix Technologies</a>.</p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+          <a href="#" class="footer-bottom-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

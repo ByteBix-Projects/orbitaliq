@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse through OrbitalIQ's completed and ongoing projects in GIS, Remote Sensing, GeoAI, Watershed Delineation, and Climate Change analysis.">
+  <title>Projects & Case Studies | OrbitalIQ Analytics</title>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+
+  <!-- --- Header / Navigation --- -->
+  <header class="header" id="headerNav">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" id="logoLink">
+        <img src="./assets/images/logo.png" alt="OrbitalIQ Analytics" class="header-logo">
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="training.html" class="nav-link">Training</a>
+        <a href="research.html" class="nav-link">Research</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="careers.html" class="nav-link">Careers</a>
+        <a href="contact.html" class="btn btn-primary" style="padding: 0.5rem 1.25rem;">Contact Us</a>
+      </nav>
+
+      <button class="hamburger" id="hamburgerMenu" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- --- Page Hero --- -->
+  <section class="page-hero" id="projectsHero">
+    <div class="container">
+      <h1 class="page-hero-title">Projects & Case Studies</h1>
+      <div class="breadcrumbs">
+        <a href="index.html">Home</a> &gt; <span>Projects</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Portfolio Section --- -->
+  <section class="section-padding" id="portfolioSection">
+    <div class="container">
+      
+      <!-- Filter Controls -->
+      <div class="project-filters" id="portfolioFilters">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="gis-rs">GIS & Remote Sensing</button>
+        <button class="filter-btn" data-filter="geo-ai">GeoAI & ML</button>
+        <button class="filter-btn" data-filter="climate-water">Climate & Water Resources</button>
+        <button class="filter-btn" data-filter="environmental">Environmental Studies</button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="project-grid" id="portfolioGrid">
+        
+        <!-- Project 1 -->
+        <div class="project-card" data-category="gis-rs" id="projLulc">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/></svg>
+            </div>
+            <span class="project-badge completed">Completed</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">GIS & Remote Sensing</span>
+            <div class="project-title">
+              <h3>Land Use Land Cover (LULC) Mapping</h3>
+            </div>
+            <p class="project-summary">Detailed spatial analysis of canopy density and urban expansions across ten municipal councils, tracking decadal conversions of green cover into built structures.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> Sentinel-2 classifications, City Planning.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-category="climate-water" id="projReservoir">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <span class="project-badge ongoing">Ongoing</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">Climate & Water Resources</span>
+            <div class="project-title">
+              <h3>Reservoir Monitoring & Volume Tracking</h3>
+            </div>
+            <p class="project-summary">Utilizing SAR satellite sensors to monitor water storage levels, silt accumulation, and seasonal surface shrink dynamics in major regional reservoirs.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> Radar telemetry, Catchment analysis.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-category="climate-water" id="projWatershed">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span class="project-badge completed">Completed</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">Climate & Water Resources</span>
+            <div class="project-title">
+              <h3>Watershed Delineation & Stream Extraction</h3>
+            </div>
+            <p class="project-summary">Precision watershed modeling using 12m SRTM DEM data to trace sub-basins, stream hierarchies, and flow directions for sustainable soil conservation initiatives.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> DEM hydrological modeling, Conservation.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-category="climate-water" id="projDrought">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2"/></svg>
+            </div>
+            <span class="project-badge completed">Completed</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">Climate & Water Resources</span>
+            <div class="project-title">
+              <h3>Drought Assessment & Vulnerability Indexing</h3>
+            </div>
+            <p class="project-summary">Integrating NDVIs, land surface temperatures, and precipitation grids to calculate real-time drought vulnerability indexes for agrarian planning bureaus.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> VCI, Climate studies, Risk maps.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-category="climate-water" id="projClimate">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8 8 0 0 1-8 8z"/></svg>
+            </div>
+            <span class="project-badge ongoing">Ongoing</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">Climate & Water Resources</span>
+            <div class="project-title">
+              <h3>Climate Change Analysis & Land Regression</h3>
+            </div>
+            <p class="project-summary">Tracking temporal variations in local temperature anomalies, rainfall patterns, and carbon stock regressions in forest reserves over the past 30 years.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> Era5 telemetry, carbon estimates.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-category="gis-rs" id="projAgri">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <span class="project-badge completed">Completed</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">GIS & Remote Sensing</span>
+            <div class="project-title">
+              <h3>Agricultural Monitoring & Crop Classification</h3>
+            </div>
+            <p class="project-summary">Automated crop classification maps utilizing multi-spectral satellite imagery and ground crop verification to audit seasonal food harvests.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> MODIS, Sentinel, Yield estimates.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card" data-category="environmental" id="projEia">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+            </div>
+            <span class="project-badge completed">Completed</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">Environmental Studies</span>
+            <div class="project-title">
+              <h3>Environmental Impact Assessment (EIA) Support</h3>
+            </div>
+            <p class="project-summary">Assessing habitat fragmentation, baseline ecological indexes, and river course changes around a proposed industrial site, preparing compliance reports.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> Ecology, Regulatory reports, Vectors.
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div class="project-card" data-category="geo-ai" id="projGeoai">
+          <div class="project-img-wrapper">
+            <div class="project-img-placeholder">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+            </div>
+            <span class="project-badge ongoing">Ongoing</span>
+          </div>
+          <div class="project-card-content">
+            <span class="project-cat">GeoAI & ML</span>
+            <div class="project-title">
+              <h3>GeoAI Applications for Automated Asset Tracking</h3>
+            </div>
+            <p class="project-summary">Building deep learning algorithms (YOLO and U-Net) to detect infrastructure expansions (solar panels, oil rigs) from high-resolution satellite arrays.</p>
+            <div style="font-size: 0.8rem; border-top: 1px solid var(--border-color); padding-top: 1rem; color: var(--text-muted);">
+              <strong>Focus:</strong> YOLO models, U-Net, PyTorch pipeline.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- --- Footer Section --- -->
+  <footer class="footer" id="mainFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <a href="index.html" class="logo" style="margin-bottom: 1.2rem;">
+            <img src="./assets/images/logo.png" alt="OrbitalIQ Analytics" style="height: 80px; width: auto; display: block;">
+          </a>
+          <p>OrbitalIQ Analytics Pvt. Ltd. is a research-driven geospatial technology company delivering GIS, remote sensing, and GeoAI solutions globally.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            <a href="#" class="footer-social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+            <a href="#" class="footer-social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footer-col">
+          <h4>Company</h4>
+          <div class="footer-links">
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="projects.html" class="footer-link">Projects Portfolio</a>
+            <a href="careers.html" class="footer-link">Careers & Culture</a>
+            <a href="contact.html" class="footer-link">Contact & Consult</a>
+          </div>
+        </div>
+
+        <!-- Solutions -->
+        <div class="footer-col">
+          <h4>Solutions</h4>
+          <div class="footer-links">
+            <a href="services.html#gis-analysis" class="footer-link">GIS & Spatial Analysis</a>
+            <a href="services.html#remote-sensing" class="footer-link">Remote Sensing</a>
+            <a href="services.html#geo-ai" class="footer-link">GeoAI & ML</a>
+            <a href="services.html#climate-analytics" class="footer-link">Climate Analytics</a>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Details</h4>
+          <div class="footer-contact-info">
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>info@orbitaliq.com</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 94376 00000</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#00AEEF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Bhubaneswar, Odisha, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="footerYear">2026</span> OrbitalIQ Analytics Pvt. Ltd. All rights reserved. | Website Developed by <a href="#" style="color: var(--secondary); font-weight: 600;">ByteBix Technologies</a>.</p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+          <a href="#" class="footer-bottom-link">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>
